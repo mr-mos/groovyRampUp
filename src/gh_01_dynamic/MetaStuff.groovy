@@ -1,6 +1,6 @@
 package gh_01_dynamic
 
-String.metaClass.hideIt = { '?' * delegate.size() }
+//String.metaClass.hideIt = { '?' * delegate.size() }
 
 String value = 'whatever'
 println value.hideIt()
