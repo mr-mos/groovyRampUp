@@ -11,7 +11,7 @@ myMethod('myOtherMethod')
 //@CompileStatic
 void myMethod(String methodName) {
 	this."$methodName"()
-	//myOthersMethod()
+	//myWhateverMethod()
 }
 
 void myOtherMethod() {
