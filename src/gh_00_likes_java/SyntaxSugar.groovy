@@ -2,7 +2,7 @@ package gh_00_likes_java
 
 
 groovyLikeJava()
-//or
+println "---------- OR -------------"
 groovyLikeGroovy()
 
 

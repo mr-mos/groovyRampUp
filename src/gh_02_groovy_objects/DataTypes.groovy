@@ -1,10 +1,14 @@
 package gh_02_groovy_objects
 
+// No primitive datatypes
+
 int myNumber = 123
 println myNumber.toString()
-println "There are no primitiv data-types: " + myNumber.class
+println "There are no primitive data-types: " + myNumber.class
 
 println "----------------------------"
+
+// Class properties in Groovy
 
 class MyBean {
 
@@ -25,6 +29,8 @@ println myBean.getProp2()
 println new MyBean(prop1:'Named Argument').prop1
 
 println "----------------------------"
+
+// Nice List and Map syntax
 
 def myList = [1,2,3,4,5,6]
 Map myMap = ['key1':'value1', 'key2':'value2']

@@ -10,12 +10,8 @@ class ImGroovyClass {
 	}
 
 
-	public void looksLikeJava() {
-
-	}
-
-	public void looksLikeGroovy() {
-
+	String groovyMethod(String name) {
+		return "I'm a Groovy-Method. Your name is: " + name;
 	}
 
 }
