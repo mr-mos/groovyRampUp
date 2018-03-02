@@ -2,7 +2,7 @@ package gh_01_dynamic
 
 import groovy.transform.CompileStatic
 
-// @CompileStatic
+//@CompileStatic
 class MyClass {
 
 	private void myMethod(String s) { println "String: '$s'" }

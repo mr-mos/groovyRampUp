@@ -14,6 +14,7 @@ assert [1]
 assert !0
 assert !""
 assert ![:]
+assert !null
 
 
 println "---------------------------------------"
