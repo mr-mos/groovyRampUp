@@ -32,7 +32,7 @@ println "----------------------------"
 
 // Nice List and Map syntax
 
-def myList = [1,2,3,4,5,6]
+def myList = ['a','b','c','d','e','f']
 Map myMap = ['key1':'value1', 'key2':'value2']
 
 println myList[2] + '  ' +myMap.key2
